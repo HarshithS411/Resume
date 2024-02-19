@@ -49,7 +49,17 @@ img{
     padding-left: 10px;
 }
 
-.column {
+.column_left{
+    float: left;
+    width: 33.33%;
+}
+
+.column_middle{
+    float: left;
+    width: 33.33%;
+}
+
+.column_right{
     float: left;
     width: 33.33%;
 }
