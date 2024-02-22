@@ -1,0 +1,88 @@
+<div class="row">
+        <div class="column_left" style="background-color: skyblue;">
+            <img src="images/pic.png" alt="Harshith" width="150px" height="150px"/><br>
+            <a href="https://github.com/HarshithS411/Resume.git"><i class="fa-brands fa-github"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRdsBZfKjkwDJpqkHvwzbkvkKVrjrWcfLvgCDWkbXddkjJPCvWrcXBsDTjNDDdTnNfRDNx" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel: +910000000000"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/harshith-s-23a0a725b/"><i class="fa-brands fa-linkedin"></i></a>
+            <h3 class="location">Bengaluru, India</h3>
+            <h3 class="head_p1">Summary</h3>
+            <p class="p1">
+                Hello there! I'm Harshith S, a passionate and dedicated student currently pursuing my BCA (Bachelor of Computer Applications) in Dayananda Sagar University. My love for playing with numbers and my fascination with technology have led me to set my sights on becoming a Data Analyst.
+                Throughout my academic journey, I have explored various aspects of computer science and honed my skills in different programming languages.
+            </p>
+            <h3 class="head_p1">Hobbies</h3>
+            <p>
+                <li class="p1">Cricket</li>
+                <li class="p1">Long Drives</li>
+                <li class="p1">Swimming</li>
+                <li class="p1">Traveling</li>
+            </p>
+            <h3 class="head_p1">Languages</h3>
+            <p>
+                <li class="p1">English</li>
+                <li class="p1">Kannada</li>
+                <li class="p1">Hindi</li>
+                <li class="p1">Tamil</li>
+                <li class="p1">Telugu</li>
+            </p>
+        </div>
+        <div class="column_middle" style="background-color: lightgreen;">
+            <h2 class="head_p1">Education</h2>
+            <p>
+                <dl>
+                    <dt class="head_p1">Matriculation</dt>
+                    <dd class="p1">
+                        School: Shantiniketan Trust School <br>
+                        Marks: 69%
+                    </dd>
+                    <dt class="head_p1">Higher Secondary</dt>
+                    <dd class="p1">
+                        College: SSMRV PU College <br>
+                        Marks: 89%
+                    </dd>
+                    <dt class="head_p1">BCA</dt>
+                    <dd class="p1">
+                        College: Dayananda Sagar University <br>
+                        SGPA: 8.57
+                    </dd>
+                </dl>
+            </p>
+            <h2 class="head_p1">Projects</h2>
+            <p>
+                <dl>
+                    <dt class="head_p1">Library Resource Management System:</dt>
+                    <dd class="p1">This project involved the development of a sophisticated system for efficiently storing and managing school or college documents. Leveraging HTML and CSS, we designed an intuitive user interface to ensure easy access and retrieval of resources.</dd>
+                    <dt class="head_p1">Online Shopping System:</dt>
+                    <dd class="p1"> Inspired by the functionality of e-commerce giants like Amazon, this project aimed to create a user-friendly online shopping platform. Employing HTML and CSS, we designed a responsive and visually appealing interface for a seamless shopping experience.</dd>
+                    <dt class="head_p1">Multiple Converter:</dt>
+                    <dd class="p1">This handy tool comprises various converters designed to streamline daily tasks. Implemented using Java, the converter offers efficiency and convenience in one package.</dd>
+                </dl>
+            </p>
+            <h2 class="head_p1">Area Of Interest</h2>
+            <p>
+                <li class="p1">Data Analyst</li>
+                <li class="p1">Web Development</li>
+                <li class="p1">Database</li>
+            </p>
+            <h2 class="head_p1">Skills</h2>
+            <p>
+                <li class="p1">Python</li>
+                <li class="p1">C</li>
+                <li class="p1">MYSQL</li>
+                <li class="p1">HTML</li>
+                <li class="p1">CSS</li>
+                <li class="p1">Javascprit</li>
+                <li class="p1">PowerBI</li>
+                <li class="p1">Excel</li>
+                <li class="p1">Figma</li>
+            </p>
+            <h2 class="head_p1">Certification</h2>
+            <p>
+                <li class="p1">Figma</li>
+                <li class="p1">Data Analyst with Python</li>
+            </p>
+        </div>
+            
+        </div>
+    </div>
