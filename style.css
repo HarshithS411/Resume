@@ -11,6 +11,12 @@ img{
     height: 174.4px; display: block;  
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 700px;
+}
+
 .main_box{
     width: 1234px;
     height: 290px;
