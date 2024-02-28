@@ -1,27 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
 body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
+.wrap{
+    height: 250px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 70%;
+    border: 2px solid black;
+}
+
+.textbox{
+    color: black;
+    margin-top: 65px;
+}
+
+.textbox h2{
+    font-size: 42px;
+}
+
 img{
-    padding-left: 30px; padding-top: 55px;
-    border-radius: 10px;
-    width: 168.71px;
-    height: 174.4px; display: block;  
+    float: left;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-right: 15px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  width: 700px;
-}
-
-.main_box{
-    width: 1234px;
-    height: 290px;
-    margin: auto;
-    border-radius: 10px;
+.textbox p{
+    font-size: 16px;
 }
 
 .minboxl{
