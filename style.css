@@ -7,6 +7,8 @@
 html, body{
     height: 100%;
     width: 100%;
+    background: rgb(70,65,156);
+    background: linear-gradient(90deg, rgba(70,65,156,1) 35%, rgba(9,115,121,1) 42%, rgba(0,212,255,1) 100%);    
 }
 
 body {
@@ -43,63 +45,64 @@ img{
     font-size: 16px;
 }
 
-.selection1{
-    height: 500px;
-    width: 1200px;
+.containerG {
+    height: 1000px;
+    width: 75%;
+    padding: 1em;
+    display: grid;
+    grid-template-areas: 
+    "one two two three"
+    "one two two three"
+    "four five five six"
+    "four five five six"
+    "seven five five eight";
+    gap: 1em;
+    margin-left: 200px;
+}
+.centerFlex {
     display: flex;
-    /* background-color: black; */
-    margin: 40px; 
-    margin-left: 255px;
-    justify-content: center; 
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
-
-.a{
-    height: 321px;
-    width: 277px;
+.oneG {
+    grid-area: one;
     background-color: grey;
     border-radius: 10px;
 }
-
-.b{
-    width: 572px;
-    height: 641px;
+.twoG {
+    grid-area: two;
     background-color: grey;
     border-radius: 10px;
 }
-
-.c{
-    height: 321px;
-    width: 277px;
+.threeG {
+    grid-area: three;
     background-color: grey;
     border-radius: 10px;
 }
-
-.minboxl{
-    width: 277px;
-    height: 321px;
-    align-items: left; border-radius: 10px;
+.fourG{
+    grid-area: four;
+    background-color: grey;
+    border-radius: 10px;
 }
-
-.minboxr{
-    width: 277px;
-    height: 321px;
-    align-items: right; border-radius: 10px;
+.fiveG{
+    grid-area: five;
+    background-color: grey;
+    border-radius: 10px;
 }
-
-.longboxr{
-    width: 365px;
-    height: 641px; border-radius: 10px;
+.sixG{
+    grid-area: six;
+    background-color: grey;
+    border-radius: 10px;
 }
-
-.centerbox{
-    width: 572px;
-    height: 641px; border-radius: 10px;
+.sevenG{
+    grid-area: seven;
+    background-color: grey;
+    border-radius: 10px;
 }
-
-.longbox{
-    width: 572px;
-    height: 790px; border-radius: 10px;
+.eightG{
+    grid-area: eight;
+    background-color: grey;
+    border-radius: 10px;
 }
 
 .fa {
