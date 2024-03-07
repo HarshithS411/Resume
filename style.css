@@ -51,6 +51,8 @@ img{
     "one two two three"
     "four five five six"
     "four five five six"
+    "nine five five six"
+    "nine five five six"
     "seven five five eight";
     gap: 1em;
     margin-left: 200px;
@@ -116,11 +118,21 @@ img{
     background-color: grey;
     border-radius: 10px;
 }
+
+
 .threeG {
     grid-area: three;
     background-color: grey;
     border-radius: 10px;
 }
+.skillp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 .fourG{
     grid-area: four;
     background-color: grey;
@@ -131,19 +143,55 @@ img{
     background-color: grey;
     border-radius: 10px;
 }
+
+
 .sixG{
     grid-area: six;
     background-color: grey;
     border-radius: 10px;
 }
+.areap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 .sevenG{
     grid-area: seven;
     background-color: grey;
     border-radius: 10px;
 }
+.hobbp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 .eightG{
     grid-area: eight;
     background-color: grey;
     border-radius: 10px;
 }
+.certp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+
+.nineG{
+    grid-area: nine;
+    background-color: grey;
+    border-radius: 10px;
+}
+.langp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
