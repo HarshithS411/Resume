@@ -24,23 +24,19 @@ body {
     width: 70%;
     border: 2px solid black;
 }
-
 .textbox{
     color: black;
     margin-top: 65px;
 }
-
 .textbox h2{
     font-size: 42px;
 }
-
 img{
     float: left;
     border: 3px solid black;
     border-radius: 50%;
     margin-right: 15px;
 }
-
 .textbox p{
     font-size: 16px;
 }
@@ -59,16 +55,62 @@ img{
     gap: 1em;
     margin-left: 200px;
 }
-.centerFlex {
+
+.oneG {
+    display: flex;
+    flex-direction: column;
+    grid-area: one;
+    background-color: grey;
+    border-radius: 10px; 
+    justify-content: start;
+}
+.detail1{
+    border: 1px solid black;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.hyper{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column; 
 }
-.oneG {
-    grid-area: one;
-    background-color: grey;
-    border-radius: 10px;
+.fa {
+    font-family: "Font Awesome";
+    /* font-size: 20px; adjust as needed */
+  }
+.fa-github{
+    font-size: 30px;
+    color: black;
+    padding: 10px;
 }
+.fa-envelope{
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+}
+.fa-phone{
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+}
+.fa-linkedin{
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+}
+.location{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
 .twoG {
     grid-area: two;
     background-color: grey;
@@ -105,31 +147,3 @@ img{
     border-radius: 10px;
 }
 
-.fa {
-    font-family: "Font Awesome";
-    font-size: 20px; /* adjust as needed */
-  }
-
-.fa-github{
-    font-size: 30px;
-    color: black;
-    padding: 10px;
-}
-
-.fa-envelope{
-    font-size: 30px;
-    color: black;
-    padding: 5px;
-}
-
-.fa-phone{
-    font-size: 30px;
-    color: black;
-    padding: 5px;
-}
-
-.fa-linkedin{
-    font-size: 30px;
-    color: black;
-    padding: 5px;
-}
