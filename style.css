@@ -3,14 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html, body{
     height: 100%;
     width: 100%;
-    background: rgb(70,65,156);
-    background: linear-gradient(90deg, rgba(70,65,156,1) 35%, rgba(9,115,121,1) 42%, rgba(0,212,255,1) 100%);    
+    background-color: #4e5855;
 }
-
 body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
@@ -22,7 +19,8 @@ body {
     padding: 10px;
     margin: 20px auto;
     width: 70%;
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
 }
 .textbox{
     color: black;
@@ -33,9 +31,10 @@ body {
 }
 img{
     float: left;
-    border: 3px solid black;
     border-radius: 50%;
     margin-right: 15px;
+    width: 225px;
+    height: 225px;
 }
 .textbox p{
     font-size: 16px;
@@ -46,25 +45,24 @@ img{
     width: 75%;
     padding: 1em;
     display: grid;
-    grid-template-areas: 
-    "one two two three"
-    "one two two three"
-    "four five five six"
-    "four five five six"
-    "nine five five six"
-    "nine five five six"
-    "seven five five eight";
+    grid-template-areas:
+    "one two two three" /* First row */
+    "one two two three" /* Second row */
+    "four five five six" /* Third row */
+    "four five five six" /* Fourth row (adjust if needed) */
+    "nine five five seven"; /* Fifth row (adjust if needed) */
     gap: 1em;
     margin-left: 200px;
 }
 
 .oneG {
-    display: flex;
-    flex-direction: column;
+    width: 300px;
+    /* display: flex; 
+    flex-direction: column;*/
     grid-area: one;
-    background-color: grey;
-    border-radius: 10px; 
+    border-radius: 10px;
     justify-content: start;
+    border: 2px solid whitesmoke;
 }
 .detail1{
     border: 1px solid black;
@@ -81,7 +79,8 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; 
+    flex-direction: column;
+    margin-top: 15%;
 }
 .fa {
     font-family: "Font Awesome";
@@ -115,83 +114,92 @@ img{
 
 .twoG {
     grid-area: two;
-    background-color: grey;
     border-radius: 10px;
+    border: 2px solid whitesmoke;
 }
-
+#bca{
+    padding: 10px;
+    font-size: 16px;
+}
+#pu{
+    padding: 10px;
+    font-size: 16px;
+}
+#sslc{
+    padding: 10px;
+    font-size: 16px;
+}
 
 .threeG {
     grid-area: three;
-    background-color: grey;
     border-radius: 10px;
+    border: 2px solid whitesmoke;
 }
-.skillp{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.skile{
+    margin: 100px auto;
+    width: fit-content;
+    margin-top: 17%;
 }
 
 
 .fourG{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
     grid-area: four;
-    background-color: grey;
     border-radius: 10px;
+    justify-content: start;
+    border: 2px solid whitesmoke;
 }
+#about{
+    padding: 10px;
+    text-align: center;
+}
+
+
 .fiveG{
     grid-area: five;
-    background-color: grey;
     border-radius: 10px;
+    border: 2px solid whitesmoke;
+}
+#ches, #ecom, #lib, #muli, #more{
+    padding: 10px;
 }
 
 
 .sixG{
     grid-area: six;
-    background-color: grey;
     border-radius: 10px;
+    border: 2px solid whitesmoke;
 }
-.areap{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+#areap{
+    margin: 100px auto;
+    width: fit-content;
 }
 
 
 .sevenG{
     grid-area: seven;
-    background-color: grey;
     border-radius: 10px;
+    border: 2px solid whitesmoke;
 }
-.hobbp{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-.eightG{
-    grid-area: eight;
-    background-color: grey;
-    border-radius: 10px;
-}
-.certp{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+#hobbp{
+    margin: 100px auto;
+    width: fit-content;
 }
 
 
 .nineG{
-    grid-area: nine;
-    background-color: grey;
-    border-radius: 10px;
-}
-.langp{
+    width: 300px;
+    height: 200px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    grid-area: nine;
+    border-radius: 10px;
+    justify-content: start;
+    border: 2px solid whitesmoke;
+}
+#lanp{
+    margin: auto auto;
+    width: fit-content;
 }
