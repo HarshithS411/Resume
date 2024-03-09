@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #262626;
+    margin: 50px;
+    padding: 30px 50px 0 50px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.name span{
+    font-size: 28px;
+}
+.info span{
+    font-size: 11px;
+    float: right;
+}
+.summary p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.skills p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.projects .pro1, .pro2, .pro3, .pro4, .pro5{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.education li{
+    padding-left: 35px;
+    font-size: 15px;
+}
+.list{
+    padding-top: 10px;
+    font-size: 15px;
+}
