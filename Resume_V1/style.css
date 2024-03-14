@@ -203,3 +203,19 @@ img{
     margin: auto auto;
     width: fit-content;
 }
+
+
+@media screen and (max-width: 500px) {
+    .containerG {
+        grid-template-areas:
+        "one one"
+        "two two"
+        "three three"
+        "four four"
+        "five five"
+        "six six"
+        "nine nine"
+        "seven seven";
+    }
+    
+}
